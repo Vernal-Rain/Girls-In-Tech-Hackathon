@@ -1,14 +1,11 @@
 import React from 'react';
 import './App.css';
+import Header from './components/header/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Replace me!
-        </p>
-      </header>
+      <Header />
     </div>
   );
 }
