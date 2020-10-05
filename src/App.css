@@ -49,6 +49,10 @@
   grid-column: 3;
 }
 
+#icon {
+  margin: 1%;
+}
+
 /* breaks landing into a column for mobile screens */
 @media (max-width: 400px) {
   .Landing {
