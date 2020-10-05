@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+.Landing {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5%;
+}
+
 .Landing-Find {
   border: 1px solid grey;
   margin: 1%;
@@ -25,4 +31,11 @@
 .Landing-Set-Reminder {
   border: 1px solid grey;
   margin: 1%;
+}
+
+/* breaks landing into a column for mobile screens */
+@media (max-width: 400px) {
+  .Landing {
+    display: block;
+  }
 }
