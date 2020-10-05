@@ -3,34 +3,44 @@
 }
 
 .Landing {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .Landing-Find {
   border: 1px solid grey;
   margin: 1%;
+  grid-row: 0/2;
+  grid-column: 1;
 }
 
 .Landing-Contact {
   border: 1px solid grey;
   margin: 1%;
+  grid-row: 1;
+  grid-column: 2;
 }
 
 .Landing-What-Now {
   border: 1px solid grey;
   margin: 1%;
+  grid-row: 2;
+  grid-column: 2;
 }
 
 .Landing-Questions {
   border: 1px solid grey;
   margin: 1%;
+  grid-row: 1;
+  grid-column: 3;
 }
 
 .Landing-Set-Reminder {
   border: 1px solid grey;
   margin: 1%;
+  grid-row: 2;
+  grid-column: 3;
 }
 
 /* breaks landing into a column for mobile screens */
