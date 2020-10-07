@@ -8,7 +8,7 @@ class Footer extends Component {
       <div className="fixed-bottom">
         <FontAwesomeIcon
                   icon={faArrowUp}
-                  size="1x"
+                  size="3x"
                   id="icon"
                   className="float-right"
         />
