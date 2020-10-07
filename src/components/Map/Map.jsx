@@ -28,7 +28,7 @@ class Map extends Component {
       <Container>
         <Row>
           <Col>
-            <h2>
+            <h4>
               <FontAwesomeIcon
                         icon={faSearch}
                         size="1x"
@@ -41,7 +41,7 @@ class Map extends Component {
                </label>
                <input type="submit" value="Search" />
              </form>
-            </h2>
+            </h4>
           </Col>
           <Col>
             <div style={{width: '100%'}}>
