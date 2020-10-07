@@ -4,7 +4,7 @@ function Header() {
     return(
         <nav className="navbar navbar-dark bg-secondary">
             <div className="row col-12 d-flex justify-content-center text-white">
-            <span className="h3">Find A Breast Cancer Screening</span>
+            <span className="h3">Breast Check</span>
             </div>
         </nav>
     )
