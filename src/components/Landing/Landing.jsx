@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faPhone, faArrowRight, faQuestion, faBell } from '@fortawesome/free-solid-svg-icons';
-import Container from 'react-bootstrap/Container'
 
 class Landing extends Component {
   render() {
     return(
-      <Container>
         <div className="Landing">
           <h2 className="Landing-Find">
             Find Your Screening Center
@@ -49,7 +47,6 @@ class Landing extends Component {
             />
           </h2>
         </div>
-      </Container>
     );
   }
 }
