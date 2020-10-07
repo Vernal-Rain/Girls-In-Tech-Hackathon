@@ -28,7 +28,7 @@ class Map extends Component {
       <Container>
         <Row>
           <Col>
-            <h2>
+            <h4>
               <FontAwesomeIcon
                         icon={faSearch}
                         size="1x"
@@ -36,12 +36,19 @@ class Map extends Component {
               />
               <form onSubmit={this.handleSubmit}>
                <label>
-                 Zipcode:
+                 Zipcode
                  <input type="text" value={this.state.value} onChange={this.handleChange} />
                </label>
-               <input type="submit" value="Search" />
              </form>
-            </h2>
+            </h4>
+          <Col>
+            <h4>
+              Location
+            </h4>
+            <h5>
+              Name of Center
+            </h5>
+          </Col>
           </Col>
           <Col>
             <div style={{width: '100%'}}>
