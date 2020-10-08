@@ -55,6 +55,10 @@
   grid-column: 3;
 }
 
+.zipcode-input {
+  border-radius: 10px;
+}
+
 #icon {
   margin: 1%;
 }

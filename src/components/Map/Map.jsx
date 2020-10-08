@@ -37,7 +37,7 @@ class Map extends Component {
               <form onSubmit={this.handleSubmit}>
                <label>
                  Zipcode
-                 <input type="text" value={this.state.value} onChange={this.handleChange} />
+                 <input className="zipcode-input" type="text" value={this.state.value} onChange={this.handleChange} />
                </label>
              </form>
             </h4>
