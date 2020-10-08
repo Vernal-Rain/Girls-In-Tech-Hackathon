@@ -11,6 +11,7 @@
 
 .Landing-Find {
   border: 1px solid grey;
+  background-color: grey;
   border-radius: 30px;
   margin: 1%;
   padding: 7%;
@@ -22,6 +23,7 @@
 .Landing-Contact {
   border: 1px solid grey;
   border-radius: 30px;
+  background-color: grey;
   margin: 1%;
   padding: 10%;
   grid-row: 1;
@@ -31,6 +33,7 @@
 .Landing-What-Now {
   border: 1px solid grey;
   border-radius: 30px;
+  background-color: grey;
   margin: 1%;
   padding: 10%;
   grid-row: 2;
@@ -40,6 +43,7 @@
 .Landing-Questions {
   border: 1px solid grey;
   border-radius: 30px;
+  background-color: grey;
   margin: 1%;
   padding: 10%;
   grid-row: 1;
@@ -49,6 +53,7 @@
 .Landing-Set-Reminder {
   border: 1px solid grey;
   border-radius: 30px;
+  background-color: grey;
   margin: 1%;
   padding: 10%;
   grid-row: 2;
@@ -56,6 +61,7 @@
 }
 
 .zipcode-input {
+  border: 1px solid grey;
   border-radius: 10px;
 }
 
