@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
