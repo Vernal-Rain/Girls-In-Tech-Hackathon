@@ -13,10 +13,6 @@ const center = {
   lng: -38.523
 };
 
-const GM_API_KEY = `${process.env.REACT_APP_GOOGLE_MAPS_API_KEY}`;
-
-console.log(process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
-
 function Map() {
   const [map, setMap] = React.useState(null)
 

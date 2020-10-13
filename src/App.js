@@ -5,6 +5,7 @@ import Landing from './Components/Landing/Landing';
 import Map from './Components/Map/Map';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
+import Questions from './Components/Questions/Questions'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Landing />
       <Map />
       <Contact />
+      <Questions />
       <Footer />
     </div>
   );
