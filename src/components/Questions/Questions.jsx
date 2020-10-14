@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-function Questions() {
-    return(
-        <nav className="">
-            <div className="">
-            <span className="h1">questions test</span>
-            </div>
-        </nav>
-    )
+class Questions extends Component {
+  render() {
+    return (
+      <div>
+        questions
+      </div>
+    );
+  }
 }
-export default Questions;
+
+export default Questions
