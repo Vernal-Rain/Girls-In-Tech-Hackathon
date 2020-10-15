@@ -5,18 +5,25 @@ import Landing from './Components/Landing/Landing';
 import Map from './Components/Map/Map';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
-import Questions from './Components/Questions/Questions'
+import Questions from './Components/Questions/Questions';
+import Error from './Components/Error/Error';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Landing />
-      <Map />
-      <Contact />
-      <Questions />
-      <Footer />
-    </div>
+      <Router>
+        <Header />
+        <Route path="/Landing" component={Landing} />
+        <Route path="/Map" component={Map} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Questions" component={Questions} />
+        <Route path="/Error" component={Error} />
+        <Route path="/" component={Landing} />
+        <Footer />
+      </Router>
   );
 }
 
