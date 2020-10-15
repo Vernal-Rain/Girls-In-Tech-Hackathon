@@ -20,6 +20,12 @@ class Appt extends Component {
               Pick a date and we'll remind you about your appt!
             </h4>
           </Row>
+          <Row>
+            <img
+              src="time_scroll.png"
+              alt="calendar scroll choice pic"
+            />
+          </Row>
         </Container>
       </div>
     );
