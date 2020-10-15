@@ -7,7 +7,7 @@ class Appt extends Component {
     return(
       <div>
         <Container>
-          <Row className="justify-content-center">
+          <Row>
             <img
               src="time.png"
               alt="calendar pic"
@@ -17,9 +17,9 @@ class Appt extends Component {
             />
           </Row>
           <Row className="justify-content-center">
-            <h4>
+            <h3>
               Pick a date and we'll remind you about your appt!
-            </h4>
+            </h3>
           </Row>
           <Row className="justify-content-center">
             <img

@@ -17,10 +17,14 @@ class Contact extends Component {
             />
           </Row>
           <Row className="justify-content-center">
-            Phone (999) 999-9999
+            <h3>
+              Phone (999) 999-9999
+            </h3>
           </Row>
           <Row className="justify-content-center">
-            Hours 12am-12pm
+            <h3>
+              Hours 12am-12pm
+            </h3>
           </Row>
         </Container>
       </div>
