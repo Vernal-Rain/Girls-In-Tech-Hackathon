@@ -16,12 +16,11 @@ function App() {
   return (
       <Router>
         <Header />
-        <Route path="/Landing" component={Landing} />
+        <Landing />
         <Route path="/Map" component={Map} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Questions" component={Questions} />
         <Route path="/Error" component={Error} />
-        <Route path="/" component={Landing} />
         <Footer />
       </Router>
   );
