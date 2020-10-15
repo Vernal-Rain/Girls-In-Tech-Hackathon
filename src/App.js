@@ -7,21 +7,23 @@ import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import Questions from './Components/Questions/Questions';
 import Error from './Components/Error/Error';
-import { Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
 
 function App() {
   return (
-    <main className="App">
-      <Header />
-      <Switch>
-                <Route path="/" component={Landing} exact />
-                <Route path="/Map" component={Map} />
-                <Route path="/Contact" component={Contact} />
-                <Route path="/Questions" component={Questions} />
-                <Route component={Error} />
-      </Switch>
-      <Footer />
-    </main>
+      <Router>
+        <Header />
+        <Route path="/Landing" component={Landing} />
+        <Route path="/Map" component={Map} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Questions" component={Questions} />
+        <Route path="/Error" component={Error} />
+        <Route path="/" component={Landing} />
+        <Footer />
+      </Router>
   );
 }
 

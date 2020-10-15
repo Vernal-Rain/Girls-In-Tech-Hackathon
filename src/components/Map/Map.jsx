@@ -1,7 +1,10 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import {
+ GoogleMap,
+ LoadScript
+} from '@react-google-maps/api';
 
 const containerStyle = {
   width: '400px',
