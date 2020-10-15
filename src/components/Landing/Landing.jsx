@@ -2,10 +2,6 @@ import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faSearch,
-  faPhone,
-  faArrowRight,
-  faQuestion,
-  faBell
 } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 
@@ -19,7 +15,7 @@ class Landing extends Component {
             </Link>
             <FontAwesomeIcon
                       icon={faSearch}
-                      size="1x"
+                      size="3x"
                       id="icon"
             />
           </h4>
@@ -27,40 +23,44 @@ class Landing extends Component {
             <Link to="/Contact" className="Link">
               Contact Info
             </Link>
-            <FontAwesomeIcon
-                      icon={faPhone}
-                      size="1x"
-                      id="icon"
+            <img
+              src="phone.png"
+              alt="phone img"
+              width="100vw"
+              height="100vh"
             />
           </h4>
           <h4 className="Landing-What-Now">
             <Link to="/Questions" className="Link">
               What Now?
             </Link>
-            <FontAwesomeIcon
-                      icon={faArrowRight}
-                      size="1x"
-                      id="icon"
+            <img
+              src="question-mark-man.png"
+              alt="question mark man img"
+              width="100vw"
+              height="100vh"
             />
           </h4>
           <h4 className="Landing-Questions">
             <Link to="/Questions" className="Link">
               Common Questions
             </Link>
-            <FontAwesomeIcon
-                      icon={faQuestion}
-                      size="1x"
-                      id="icon"
+            <img
+              src="question-mark.png"
+              alt="question mark img"
+              width="100vw"
+              height="100vh"
             />
           </h4>
           <h4 className="Landing-Set-Reminder">
             <Link to="/Appt" className="Link">
               Set Appt. Reminder
             </Link>
-            <FontAwesomeIcon
-                      icon={faBell}
-                      size="1x"
-                      id="icon"
+            <img
+              src="notification.png"
+              alt="notification img"
+              width="100vw"
+              height="100vh"
             />
           </h4>
         </div>

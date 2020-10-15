@@ -8,6 +8,12 @@ class Questions extends React.Component {
   render() {
     return (
       <Accordion className="Accordian">
+      <img
+        src="question-mark.png"
+        alt="question mark img"
+        width="100vw"
+        height="100vh"
+      />
       <h3>Common Questions</h3>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0">
@@ -17,11 +23,9 @@ class Questions extends React.Component {
             <Card.Body>
               Thermography takes a picture of the breast and creates a heat map.
               This can show areas with inflammation that require further investigating.
-              <br />
               Mammograms take an x-ray photo of the breast. It involves breast
               compression and areas with more dense breast tissue show up as white
               in the x-ray.
-              <br />
               Consult with your doctor to determine which procedure is right for you.
             </Card.Body>
           </Accordion.Collapse>
@@ -34,12 +38,9 @@ class Questions extends React.Component {
             <Card.Body>
               The American Cancer Society recommends varied schedules depending on age.
               Ages 40-44 may start the process of yearly breast cancer screenings.
-            <br />
               Women ages 45-54 should get screened every year.
-            <br />
               Women 55 years and older should switch to once every two years, or
               continue with yearly procedures if they wish.
-            <br />
               It is important to be aware of the potential risks from regular
                screenings, such as radiation exposure. Consult with your doctor
                to determine your own schedule.
