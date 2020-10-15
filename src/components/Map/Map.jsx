@@ -6,14 +6,14 @@ import {
  LoadScript
 } from '@react-google-maps/api';
 
-const containerStyle = {
-  width: '400px',
-  height: '400px'
+const mapContainerStyle = {
+  width: '100vw',
+  height: '100vh'
 };
 
 const center = {
-  lat: -3.745,
-  lng: -38.523
+  lat: 32.752120,
+  lng: -96.826131
 };
 
 function Map() {
@@ -30,22 +30,18 @@ function Map() {
   }, [])
 
   return (
-    <Container>
-      <Row>
-        future input box
-      </Row>
+    <Container className="Map">
       <Row>
         <LoadScript
-          googleMapsApiKey="GM_API_KEY"
+          googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
         >
           <GoogleMap
-            mapContainerStyle={containerStyle}
+            mapContainerStyle={mapContainerStyle}
             center={center}
             zoom={10}
             onLoad={onLoad}
             onUnmount={onUnmount}
           >
-            { /* Child components, such as markers, info windows, etc. */ }
             <></>
           </GoogleMap>
         </LoadScript>

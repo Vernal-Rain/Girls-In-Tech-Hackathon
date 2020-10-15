@@ -6,6 +6,7 @@ import Map from './Components/Map/Map';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
 import Questions from './Components/Questions/Questions';
+import Appt from './Components/Appt/Appt';
 import Error from './Components/Error/Error';
 import {
   BrowserRouter as Router,
@@ -16,12 +17,12 @@ function App() {
   return (
       <Router>
         <Header />
-        <Route path="/Landing" component={Landing} />
+        <Landing />
         <Route path="/Map" component={Map} />
         <Route path="/Contact" component={Contact} />
         <Route path="/Questions" component={Questions} />
+        <Route path="/Appt" component={Appt} />
         <Route path="/Error" component={Error} />
-        <Route path="/" component={Landing} />
         <Footer />
       </Router>
   );

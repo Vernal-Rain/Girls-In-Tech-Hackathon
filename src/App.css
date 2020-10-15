@@ -1,9 +1,21 @@
+h3 {
+  text-align: center;
+}
+
+h4 {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
 .Accordian {
   margin: 10%;
+}
+
+.Calendar-Img {
+  margin-top: 2%;
 }
 
 .Landing {
@@ -64,6 +76,26 @@
   grid-column: 3;
 }
 
+.Link:link {
+  color: white;
+}
+
+.Link:visited {
+  color: white;
+}
+
+.Link:hover {
+  color: black;
+}
+
+.Map {
+  margin-top: 2%;
+}
+
+.Phone-Img {
+  margin-bottom: 2%;
+}
+
 .Scroll-Img {
   position: relative;
   float: right;
@@ -75,7 +107,7 @@
 }
 
 #icon {
-  margin: 1%;
+  margin: 5%;
 }
 
 /* breaks landing into a column for mobile screens */
