@@ -1,28 +1,25 @@
 import React, { Component } from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
   render() {
     return(
       <div>
         <Container className="justify-content-center">
-          <Row>
-            <FontAwesomeIcon
-                      icon={faPhone}
-                      size="1x"
-                      id="icon"
+          <Row className="justify-content-center">
+            <img
+              src="phone.png"
+              alt="phone img"
+              width="100vw"
+              height="100vh"
+              className="Phone-Img"
             />
-            <h4>
-            Contact Info
-            </h4>
           </Row>
-          <Row>
+          <Row className="justify-content-center">
             Phone (999) 999-9999
           </Row>
-          <Row>
+          <Row className="justify-content-center">
             Hours 12am-12pm
           </Row>
         </Container>

@@ -30,10 +30,7 @@ function Map() {
   }, [])
 
   return (
-    <Container>
-      <Row>
-        
-      </Row>
+    <Container className="Map">
       <Row>
         <LoadScript
           googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
