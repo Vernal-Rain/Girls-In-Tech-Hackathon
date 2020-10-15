@@ -9,7 +9,7 @@ class Footer extends Component {
           height="5%"
           src="up.png"
           alt="scroll to top"
-          onClick="window.scrollTo(0, 0)"
+          onClick={window.scrollTo(0, 0)}
           className="Scroll-Img"
         />
       </div>
