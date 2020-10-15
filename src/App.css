@@ -64,6 +64,11 @@
   grid-column: 3;
 }
 
+.Scroll-Img {
+  position: relative;
+  float: right;
+}
+
 .zipcode-input {
   border: 1px solid grey;
   border-radius: 10px;
