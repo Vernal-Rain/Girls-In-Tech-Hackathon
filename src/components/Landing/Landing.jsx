@@ -14,7 +14,7 @@ class Landing extends Component {
     return(
         <div className="Landing">
           <h4 className="Landing-Find">
-            <Link to="/Map">
+            <Link to="/Map" className="Link">
               Find Your Screening Center
             </Link>
             <FontAwesomeIcon
@@ -24,7 +24,7 @@ class Landing extends Component {
             />
           </h4>
           <h4 className="Landing-Contact">
-            <Link to="/Contact">
+            <Link to="/Contact" className="Link">
               Contact Info
             </Link>
             <FontAwesomeIcon
@@ -34,7 +34,7 @@ class Landing extends Component {
             />
           </h4>
           <h4 className="Landing-What-Now">
-            <Link to="/Questions">
+            <Link to="/Questions" className="Link">
               What Now?
             </Link>
             <FontAwesomeIcon
@@ -44,7 +44,7 @@ class Landing extends Component {
             />
           </h4>
           <h4 className="Landing-Questions">
-            <Link to="/Questions">
+            <Link to="/Questions" className="Link">
               Common Questions
             </Link>
             <FontAwesomeIcon
@@ -54,7 +54,7 @@ class Landing extends Component {
             />
           </h4>
           <h4 className="Landing-Set-Reminder">
-            <Link to="/Questions">
+            <Link to="/Questions" className="Link">
               Set Appt. Reminder
             </Link>
             <FontAwesomeIcon

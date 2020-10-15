@@ -1,3 +1,11 @@
+h3 {
+  text-align: center;
+}
+
+h4 {
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -62,6 +70,18 @@
   padding: 10%;
   grid-row: 2;
   grid-column: 3;
+}
+
+.Link:link {
+  color: white;
+}
+
+.Link:visited {
+  color: white;
+}
+
+.Link:hover {
+  color: black;
 }
 
 .Scroll-Img {
