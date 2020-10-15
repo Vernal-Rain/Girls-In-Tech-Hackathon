@@ -8,7 +8,7 @@ class Contact extends Component {
   render() {
     return(
       <div>
-        <Container>
+        <Container className="justify-content-center">
           <Row>
             <FontAwesomeIcon
                       icon={faPhone}
@@ -20,10 +20,10 @@ class Contact extends Component {
             </h4>
           </Row>
           <Row>
-            Phone ___ - ____ - _____
+            Phone (999) 999-9999
           </Row>
           <Row>
-            Hours ____ am - _____ pm
+            Hours 12am-12pm
           </Row>
         </Container>
       </div>

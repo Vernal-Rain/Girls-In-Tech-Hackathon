@@ -54,7 +54,7 @@ class Landing extends Component {
             />
           </h4>
           <h4 className="Landing-Set-Reminder">
-            <Link to="/Questions" className="Link">
+            <Link to="/Appt" className="Link">
               Set Appt. Reminder
             </Link>
             <FontAwesomeIcon

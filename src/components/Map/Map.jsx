@@ -32,7 +32,7 @@ function Map() {
   return (
     <Container>
       <Row>
-        Input?
+        
       </Row>
       <Row>
         <LoadScript
