@@ -1199,7 +1199,7 @@
   dependencies:
     prop-types "^15.7.2"
 
-"@googlemaps/js-api-loader@1.6.0":
+"@googlemaps/js-api-loader@1.6.0", "@googlemaps/js-api-loader@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@googlemaps/js-api-loader/-/js-api-loader-1.6.0.tgz#351c904ca31bcc7d961aa115373d5cd411ebee80"
   integrity sha512-amuilneCf7q5A/jDUE3ml83c9NjW/3DzIqiBDFIKZcraD0JSKbetkEQa5s57Z6QY7jxcequXgoL9CKJUY1xZ5A==
@@ -1438,10 +1438,20 @@
   resolved "https://registry.yarnpkg.com/@react-google-maps/infobox/-/infobox-1.12.1.tgz#6c0354b6cfc52c8689f99ee5ce1fb5668fa78697"
   integrity sha512-tD/xijqRtKK/LNRzuerzuyvybnRaD8SLgCA064len4/enTo1abhQN215ZYqwbTOn7RgYt9qMgNnwoX//u3xoWw==
 
+"@react-google-maps/infobox@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/infobox/-/infobox-1.13.0.tgz#2d5a85eeb54a6e0c29da01315fd359637949b2e8"
+  integrity sha512-yo7eJmyY/KG76Mj/FFdYnaS2z1+M4A+T6hMXQa6zktxxeXat5A9w12vFN2/rl7xilieIspGw2fvb/wGQc75KmQ==
+
 "@react-google-maps/marker-clusterer@1.12.1":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@react-google-maps/marker-clusterer/-/marker-clusterer-1.12.1.tgz#fcf8df395a102b56258601c9b85d671dcd03d7cf"
   integrity sha512-JBSO5VJuouP/boBnSdRDCWq0UKO7jr3HvZVhis3ew+VGJ/BoCPu3lpU0HDsjjulfng+xwqLfVOIzP3QnvBPdCA==
+
+"@react-google-maps/marker-clusterer@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@react-google-maps/marker-clusterer/-/marker-clusterer-1.13.0.tgz#9adf1acf3fedf0d51e261a02243dea196d4c339a"
+  integrity sha512-kQvUwda39DiGlwSCJTff2QablXYCYIhVQBHgl1BGIKVUXODZgXCGWpln8eJNrEoob8Gngxh5Lphg8shv1HDWFQ==
 
 "@restart/context@^2.1.4":
   version "2.1.4"
