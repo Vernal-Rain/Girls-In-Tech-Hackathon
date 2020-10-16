@@ -1,53 +1,55 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
+import React, { Component } from 'react';
 import {
- GoogleMap,
- LoadScript
+  GoogleMap,
+  LoadScript,
+  Marker
 } from '@react-google-maps/api';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
-const mapContainerStyle = {
-  width: '100vw',
-  height: '100vh'
+const containerStyle = {
+  width: '400px',
+  height: '400px'
 };
 
 const center = {
-  lat: 32.752120,
-  lng: -96.826131
+  lat: 30.332186143422703,
+  lng:  -97.97139225993722
 };
 
-function Map() {
-  const [map, setMap] = React.useState(null)
-
-  const onLoad = React.useCallback(function callback(map) {
-    const bounds = new window.google.maps.LatLngBounds();
-    map.fitBounds(bounds);
-    setMap(map)
-  }, [])
-
-  const onUnmount = React.useCallback(function callback(map) {
-    setMap(null)
-  }, [])
-
-  return (
-    <Container className="Map">
-      <Row>
-        <LoadScript
-          googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
-        >
-          <GoogleMap
-            mapContainerStyle={mapContainerStyle}
-            center={center}
-            zoom={10}
-            onLoad={onLoad}
-            onUnmount={onUnmount}
-          >
-            <></>
-          </GoogleMap>
-        </LoadScript>
-      </Row>
-    </Container>
-  )
+const position = {
+  lat: 30.332186143422703,
+  lng:  -97.97139225993722
 }
 
-export default React.memo(Map)
+const onLoad = marker => {
+  console.log('marker: ', marker)
+}
+
+class Map extends Component {
+  render() {
+    return (
+      <Container>
+        <Row className="Map justify-content-center">
+          <LoadScript
+            googleMapsApiKey={process.env.REACT_APP_GOOGLE_MAPS_API_KEY}
+          >
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={center}
+              zoom={10}
+            >
+            <Marker
+              onLoad={onLoad}
+              position={position}
+            />
+              <></>
+            </GoogleMap>
+          </LoadScript>
+        </Row>
+      </Container>
+    )
+  }
+}
+
+export default Map;
