@@ -7,4 +7,4 @@ attempting to find screening sites near them while also answering common questio
 # To Run
 1. install react
 2. open repo in terminal
-$ npm start
+$ yarn start
